@@ -32,20 +32,20 @@ The Mess Management System offers the following functionalities:
 
 The repository is structured as follows:
 
-- **`website-images`**: Contains screenshots of the website interface showcasing various features.
-- **`web`**:  Contains the source code for the website, including PHP files for logic and CSS files for styling. 
-- **`database-images`**:  Contains diagrams and screenshots illustrating the database schema and structure.
+- **`website_working`**: Contains screenshots of the website interface showcasing various features.
+- **`website_creation`**:  Contains the source code for the website, including PHP files for logic and CSS files for styling. 
+- **`Databases`**:  Contains diagrams and screenshots illustrating the database schema and structure.
 
 ## Installation
 
 To set up the Mess Management System, follow these steps:
 
 1. **Database Setup:** 
-    - Create a new database and import the SQL schema from the `database-images` folder.
+    - Create a new database and import the SQL schema from the `Databases` folder.
     - Configure the database credentials in the PHP configuration files.
 2. **Web Server Configuration:** 
     - Set up a web server (e.g., Apache or Nginx) and configure it to run PHP applications.
-    - Copy the code from the `code` folder into the web server's document root directory.
+    - Copy the code from the `website_creation` folder into the web server's document root directory.
 3. **Access the Website:** 
     - Open a web browser and navigate to the URL of the website (e.g., `http://localhost/mess-management-system/`).
 
